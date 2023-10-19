@@ -1,7 +1,9 @@
 body {
 
     font-family: Trebuchet MS;
-  
+
+    font-size: 32px;
+    
     background-color: black;
     
     color: darkolivegreen;
@@ -9,9 +11,17 @@ body {
     text-align: center;
   }
   
+p2 {
+
+    font-family: Trebuchet MS;
+    font-size: 22px;
+    color: darkolivegreen;
+    text-align: center;
+    padding-top: 25px;
+}
 
   
-  h1 {
+h1 {
   
     font-family: Trebuchet MS;
   
@@ -21,4 +31,5 @@ body {
     padding-top: 25px;
   
   }
+
 
