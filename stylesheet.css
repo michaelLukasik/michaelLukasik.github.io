@@ -1,10 +1,10 @@
 body {
 
-    font-family: Helvetica;
+    font-family: Trebuchet MS;
   
     background-color: black;
     
-    color: rgb(4, 92, 51);
+    color: olive;
     
     text-align: center;
   }
@@ -13,13 +13,12 @@ body {
   
   h1 {
   
-    font-family: Helvetica;
+    font-family: Trebuchet MS;
   
-    color: rgb(4, 92, 51);
+    color: olive;
   
     text-align: center;
     padding-top: 25px;
   
   }
 
-  
