@@ -1,16 +1,16 @@
 body {
 
     font-family: Trebuchet MS;
-    font-size: 32px;
+    font-size: 42px;
     background-color: black; 
     color: darkolivegreen;
     text-align: center;
   }
   
-p2 {
+p1 {
 
     font-family: Trebuchet MS;
-    font-size: 22px;
+    font-size: 16px;
     color: darkolivegreen;
     text-align: center;
     padding-top: 25px;
@@ -20,6 +20,7 @@ p2 {
 h1 {
 
     font-family: Trebuchet MS;
+    font-size: 16px;
     color: darkolivegreen;
     text-align: center;
     padding-top: 25px;
