@@ -11,10 +11,13 @@ p {
 
     font-family: Trebuchet MS;
     color: darkolivegreen;
+    width: 700px;
     text-align: center;
     padding-top: 25px;
+    margin-left: auto;
+  margin-right: auto;
+    
 }
-
 .manifesto{
 
   font-family: Trebuchet MS;
@@ -25,7 +28,6 @@ p {
   line-height: 100%;
 
 }
-
   
 h1 {
 
