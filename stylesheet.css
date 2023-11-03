@@ -18,10 +18,10 @@ p {
     margin-right: auto;
     
 }
-
 .braunlichBars{
   width: 550px;
   height: 40px;
+  min-height: 40px;
 }
 .subHeader{
   font-family: Trebuchet MS;
