@@ -30,6 +30,14 @@ p {
   height: 10px;
   min-height: 10px;
 }
+
+.indexBars{
+  margin-top: 0px;
+  width: 500px;
+  height: 3px;
+  min-height: 3px;
+}
+
 .subHeader{
   font-family: Trebuchet MS;
   font-size: 16px;
