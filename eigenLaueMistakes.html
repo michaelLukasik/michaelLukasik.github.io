@@ -8,15 +8,21 @@
 <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
 
 </head>
-<h2>
-    Mistakes from eigenLaue Sim 
-</h2>
-<h1>
-    <button type="button" class="collapsible">Show Explaination</button>
-    <div class="content">
-        <p>Lorem ipsum...</p>
-    </div>
-</h1>
+<body>
+<h2>Mistakes from eigenLaue Sim </h2>
+<button type="button" class="collapsible">Show Explaination</button>
+<div class="content">
+    <p style="color:black;text-align:left">  &emsp;EigenLaue is an optical simulation created by me to replicate diffraction by crystalic materials under X-ray stimulation. The basic idea is to place a constructed crystal within a column of X-rays and have the photons scatter from the lattice locations according to standard E&M methods. The result is usually a nice organized pattern that gives a detailed map of the reciprocal-space representation of the lattice, which in turn can tell one about the structure of the crystal itself. More representative photographs of this effect can be found on my gitHub page. 
+    <br>
+    <br>
+    &emsp;During the simulation, one has the ability to set many different physical aspects of the experiment, such as lattice spacing, distance to the observation plane, wavelength of the incoming photons, and more. You also have the ability (more or less forced to do so) to apply certain filters to the result, namely an adjustable bandpass filter that gets multiplied onto the Fourier Transform of the data. If one messes up with any of these steps, the resulting image can become... interesting. Here are a few results of the failed experiments.
+    <br>
+    <br>
+    &emsp;Here are a few examples of these mistakes. Hover over the image to get an idea on how I messed up the experiment, but mostly it will be things involving setting a single parameter wrong. I'll update this page as I inevitably make more mistakes in setting up the experiment.
+    </p>
+</div>
+<br>
+<br>
 
     <img src="assets/loss/fftrotation_0THETA_FullPHI_0PSI_rotation.gif" title = "spinning loss">
     <br>
@@ -38,18 +44,19 @@
 <script>
     var coll = document.getElementsByClassName("collapsible");
     var i;
-        
+    
     for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
+      coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-            content.style.maxHeight = null;
+        if (content.style.display === "block") {
+          content.style.display = "none";
         } else {
-            content.style.maxHeight = content.scrollHeight + "px";
+          content.style.display = "block";
         }
-        });
+      });
     }
 </script>
+</body>
 </html>
 
