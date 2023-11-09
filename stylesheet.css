@@ -55,11 +55,12 @@ p {
   cursor: pointer;
   padding: 5px;
   border: none;
-  width: 100%;
+  width: 700px;
   text-align: center;
   outline: none;
   font-size: 16px;
   height: auto;
+
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -70,11 +71,12 @@ p {
 .content {
   padding: 0px;
   display: none;
-  overflow: hidden;
+  overflow: visble;
   background-color: rgb(102, 102, 102);
   height: auto;
   font-size: 16px;
-
+  width: 700px;
+  margin: auto;
 }
 
 .top-one {
