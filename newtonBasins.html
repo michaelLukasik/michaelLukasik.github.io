@@ -11,6 +11,18 @@
 <h2>
     Various Newton Basins
 </h2>
+
+
+<body>
+    <button type="button" class="collapsible">Show Explaination</button>
+    <div class="content">
+        <p style="color:black;text-align:left;width:500px">  &emsp;Various Newton Basins made from using normal Newton's method as well as its second order counterpart (Halleys Method). Originally this program was an auxillary project associated with the eigenLaue Simulation, but was fun and I kinda kept going. Each of the pictures created uses a different function as the diving function which can be read by hovering over the image.
+        <br>
+        <br>
+        </p>
+    </div>
+    <br>
+    <br>
     <img src="assets/newtonBasins/BesselHalley_BW.png" title = "Bessel Halley Function">
     <br>
     <img src="assets/newtonBasins/BesselTwoTerm_Bone.png" title = "Bessel Two Term" width = 770px>
@@ -30,4 +42,22 @@
             Go Back
         </a>
     </h1>
+
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+        });
+    }
+</script>
 </html>
